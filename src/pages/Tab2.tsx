@@ -10,14 +10,7 @@ const Tab2: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <IonList>
-          <IonItem routerLink="/tab2/details">
-            <IonLabel>
-              <h2>Go to detail</h2>
-            </IonLabel>
-          </IonItem>
-        </IonList>
-      </IonContent>
+       </IonContent>
     </IonPage>
   );
 };
