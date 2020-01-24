@@ -4,7 +4,7 @@ bla-bla
 ## Sådan er opstarten lavet
 ```bash
 Ionic start my-game
-```
+npm ```
 * item1
 * item2
     * Subitem2a
