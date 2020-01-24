@@ -25,27 +25,38 @@ const Tab1 = () => {
 };
 
 export default Tab1;
+const Cell = () => {
+  return <div className="cell" style={{ width: "33.3%" }} />;
+};
+
+const Footer = () => {
+  return (
+    <>
+      <div className="message">Game Message Here...</div>
+      <div className="button">
+        <button>Start Spil</button>
+      </div>
+    </>
+  );
+};
 
 const Game = () => {
   return (
     <div className="game">
       <div className="grid">
-        <div className="cell" style={{ width: "33.3%" }} />
-        <div className="cell" style={{ width: "33.3%" }} />
-        <div className="cell" style={{ width: "33.3%" }} />
+        <Cell />
+        <Cell />
+        <Cell />
 
-        <div className="cell" style={{ width: "33.3%" }} />
-        <div className="cell" style={{ width: "33.3%" }} />
-        <div className="cell" style={{ width: "33.3%" }} />
+        <Cell />
+        <Cell />
+        <Cell />
 
-        <div className="cell" style={{ width: "33.3%" }} />
-        <div className="cell" style={{ width: "33.3%" }} />
-        <div className="cell" style={{ width: "33.3%" }} />
+        <Cell />
+        <Cell />
+        <Cell />
       </div>
-      <div className="message">Game Message Here...</div>
-      <div className="button">
-        <button>Start Spil</button>
-      </div>
+      <Footer />
     </div>
   );
 };
